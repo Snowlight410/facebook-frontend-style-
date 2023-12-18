@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root{
+    --main-color:#242526;
+    --second-color:#3a3b3c;
+    --button-color:#0866ff;
+}
+
+body , .scrool{
+    background-color: #0f0f0f;
+}
+body{
+    scrollbar-color: #000000; /* thumb and track colors */
+}
+.scrool::-webkit-scrollbar-thumb{
+    background-color:rgba(233, 233, 233, 0.658); 
+}
+.f-g{
+    @apply flex items-center ;
+}
+.scrool::-webkit-scrollbar{
+    width: 7px;
+}
+.scrool:hover::-webkit-scrollbar-track{
+    background-color: #3a3b3c;
+}
+
+/* .scrool:hover::-webkit-scrollbar-thumb{
+    background-color:black;
+}  */
+/* ::-webkit-scrollbar-thumb{
+    background-color:black;
+} */
+
+
+.scrollbe:hover::-webkit-scrollbar-thumb{
+    background-color:rgba(233, 233, 233, 0.658); 
+    border-radius: 4px;
+}
+
+.small-border{
+    border-bottom: 000.1px solid white;
+}
+.fic{
+ display: flex;   
+ align-items: center;
+}
+.ficg{
+    display: flex;   
+    align-items: center;
+gap: 2px;
+}
+
+.maincolor{
+    background-color: var(--main-color);
+}
+.secondcolor{
+    background-color: var(--second-color);
+}
+.buttonColor{
+    background-color: var(--button-color);
+}
+
+.fij{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
