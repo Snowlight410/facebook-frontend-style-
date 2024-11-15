@@ -1,7 +1,7 @@
 import React from 'react'
-import Marketetsidebar from '../components/Marketingcomponents/marketsidebar/marketsidebar'
-import RightMarketing from '../components/Marketingcomponents/rightbar/RightMarketing'
 
+import RightMarketing from '../components/Marketingcomponents/rightbar/RightMarketing'
+import Marketetsidebar from '../components/Marketingcomponents/marketsidebar/Marketsidebar'
 const Marketing = () => {
   return (
     <main className='text-white mt-14 flex'>

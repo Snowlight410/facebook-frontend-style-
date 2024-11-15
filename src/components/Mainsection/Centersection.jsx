@@ -13,6 +13,7 @@ const Centersection = () => {
     backgroundPosition: 'center',
     borderRadius: '8px',
   };
+
   const imagesUrls = {
     imgf :"https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/c0dWho49-X3.png",
     imgs:"https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/Ivw7nhRtXyo.png"

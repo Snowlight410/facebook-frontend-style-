@@ -1,6 +1,7 @@
 import React from 'react'
 import Icons from '../../icons/iconslist'
 import Contactpic from './right/Contactpic'
+import Image from '../../images/Image'
 
 const Rightsection = () => {
   return (
@@ -15,9 +16,10 @@ const Rightsection = () => {
           <Icons.menukebab className='rotate-[90deg]' size={20} color='white' />
         </div>
       </div>
-     <Contactpic name ={"dfadf"}/>
-     <Contactpic name ={"dfadf"}/>
-     <Contactpic name ={"dfadf"}/>
+     <Contactpic name ={"Author"}  image = {Image.person1}/>
+     <Contactpic name ={"Janni"}  image = {Image.person2}/>
+     <Contactpic name ={"Jame"}  image = {Image.person3}/>
+     
     </div>
     <div className='pt-2 ' >
       <h2 className='text-xl font-bold'>Group conversation</h2>
